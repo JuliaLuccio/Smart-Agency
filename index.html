@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Source+Sans+Pro&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Smart Agency</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="header__nav navbar navbar-light bg-transparent" aria-label="First navbar">
+            <a class="header__nav-link navbar-brand" href="#">
+              <img class="header__nav-link-logo-img" src="./assets/images/logo.png" alt="logo">
+            </a>
+
+            <button class="header__nav-btn navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="header__nav-btn-lines navbar-toggler-icon"></span>
+            </button>
+
+            <div class="header__nav-collapse navbar-collapse collapse" id="navbar">
+              <ul class="header__nav-collapse-list navbar-nav me-auto mb-2">
+                <li class="header__nav-collapse-list-item nav-item">
+                  <a class="header__nav-collapse-list-item-link nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="header__nav-collapse-list-item nav-item">
+                  <a class="header__nav-collapse-list-item-link nav-link" href="#">Working process</a>
+                </li>
+                <li class="header__nav-collapse-list-item nav-item">
+                  <a class="header__nav-collapse-list-item-link nav-link" href="#">Featured works</a>
+                </li>
+                <li class="header__nav-collapse-list-item nav-item">
+                  <a class="header__nav-collapse-list-item-link nav-link" href="#">Servises</a>
+                </li>
+                <li class="header__nav-collapse-list-item nav-item">
+                  <a class="header__nav-collapse-list-item-link nav-link" href="#">Team</a>
+                </li>
+                <li class="header__nav-collapse-list-item nav-item">
+                  <a class="header__nav-collapse-list-item-link nav-link" href="#">Reviews</a>
+                </li>
+              </ul>
+              <form class="header__nav-collapse-form">
+                <input class="header__nav-collapse-form-search form-control" type="text" placeholder="Search" aria-label="Search">
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="first-screen">
+      <div class="container">
+        <div class="row first-screen__content">
+          <div class="col-12">
+            <h1 hidden>tags for page titles</h1>
+            <h2 class="first-screen__content-title title text-center text-capitalize mb-4"><span class="title__decor">smart</span> agency landing page</h2>
+            <p class="first-screen__content-text text text-center col-7 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, fuga provident. Libero magni quibusdam labore ad iste saepe hic, maxime qui ipsum tempore beatae, volu tomi ptates doloremque rerum aspernatur dolorum at!</p>
+          </div>
+        </div>
+        <div class="row first-screen__form">
+          <div class="col-xl-4 col-lg-6 col-sm-10 col-11 bg-light shadow-lg ms-4">
+            <h4 class="first-screen__form-subtitle subtitle text-capitalize text-center mt-4 mb-5"><span class="title__decor">send</span> a message</h4>
+            <form class="first-screen__form-ms px-2" action="#">
+              <input type="text" class="first-screen__form-ms-name form-control mb-4" name="firstName" id="firstName" placeholder="Your Name" required>
+              <input type="email" class="first-screen__form-ms-mail form-control mb-4" name="email" id="email" placeholder="Your Email" required>
+              <textarea class="first-screen__form-ms-comment form-control mb-4" name="comment" id="comment" cols="30" rows="3" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn first-screen__form-ms-btn btn-lg mx-auto px-4 shadow-sm mb-4">
+                Send Message
+                <img class="first-screen__form-ms-btn-img" src="./assets/images/icon/arrow.png" alt="arrow">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="work-process">
+      <div class="container">
+        <div class="row work-process__content">
+          <div class="col-12">
+            <h2 class="work-process__content-title title text-center text-capitalize mb-4"><span class="title__decor">working</span> process</h2>
+            <p class="work-process__content-text text text-center col-7 mx-auto">Lorem ipsum dolor sit amet consectet ur adipiscing elit Vestibulum bibend um vestibulum.</p>
+          </div>
+        </div>
+        <div class="row work-process__list justify-content-center">
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-5">
+            <div class="card work-process__list-item text-center work-process__card-1 pt-4">
+              <div class="card-body">
+                <img class="work-process__list-item-img mb-4" src="./assets/images/icon/work-icon-1.png" alt="icon work">
+                <h5 class="work-process__list-item-title card-title mb-4">Koc Koi Tomi</h5>
+                <p class="work-process__list-item-text card-text px-4">Lorem ipsum is dummy lorem very dumy</p>
+                <a href="#" class="btn work-process__list-item-link links shadow py-3">
+                  <img class="work-process__list-item-link-img pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                  Know More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-5">
+            <div class="card work-process__list-item text-center work-process__card-2 pt-4">
+              <div class="card-body">
+                <img class="work-process__list-item-img mb-4" src="./assets/images/icon/work-icon-2.png" alt="icon work">
+                <h5 class="work-process__list-item-title card-title mb-4">Koimona Set</h5>
+                <p class="work-process__list-item-text card-text px-4">Lorem ipsum is dummy lorem very dumy</p>
+                <a href="#" class="btn work-process__list-item-link links shadow py-3">
+                  <img class="work-process__list-item-link-img pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                  Know More
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-5">
+            <div class="card work-process__list-item text-center work-process__card-3 pt-4">
+              <div class="card-body">
+                <img class="work-process__list-item-img mb-4" src="./assets/images/icon/work-icon-3.png" alt="icon work">
+                <h5 class="work-process__list-item-title card-title mb-4">Setting Koire</h5>
+                <p class="work-process__list-item-text card-text px-4">Lorem ipsum is dummy lorem very dumy</p>
+                <a href="#" class="btn work-process__list-item-link links shadow py-3">
+                  <img class="work-process__list-item-link-img pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                  Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-5">
+            <div class="card work-process__list-item text-center work-process__card-4 pt-4">
+              <div class="card-body">
+                <img class="work-process__list-item-img mb-4" src="./assets/images/icon/work-icon-4.png" alt="icon work">
+                <h5 class="work-process__list-item-title card-title mb-4">Ko Image Lara</h5>
+                <p class="work-process__list-item-text card-text px-4">Lorem ipsum is dummy lorem very dumy</p>
+                <a href="#" class="btn work-process__list-item-link links shadow py-3">
+                  <img class="work-process__list-item-link-img pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                  Know More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="featured-work">
+      <div class="container">
+        <div class="row featured-work__content">
+          <div class="col-12">
+            <h2 class="featured-work__content-title title text-center text-capitalize mb-4"><span class="title__decor">featured</span> works</h2>
+            <p class="featured-work__content-text text text-center col-7 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.</p>
+          </div>
+        </div>
+        <div class="row featured-work__gallery">
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-1.jpg" alt="work-1"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-2.jpg" alt="work-2"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-3.jpg" alt="work-3"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-4.jpg" alt="work-4"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-5.jpg" alt="work-5"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-6.jpg" alt="work-6"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-7.jpg" alt="work-7"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-8.jpg" alt="work-8"></a>
+          </div>
+          <div class="col-xl-4 col-lg-6 d-flex justify-content-center mb-5">
+            <a href="#"><img class="img-fluid" src="./assets/images/gallery/instagram-1.jpg" alt="work-9"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="row services__content">
+          <div class="col-12">
+            <h2 class="services__content-title title text-center text-capitalize mb-4"><span class="title__decor">services</span> we provide
+            </h2>
+            <p class="services__content-text text text-center col-7 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores fuga provident Libero.</p>
+          </div>
+        </div>
+        <div class="row services__list">
+          <div class="d-flex align-items-start justify-content-between">
+            <div class="col-md-2 col-sm-3 col-4">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="services__nav-link nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">
+                  <img src="./assets/images/icon/nav-icon-1.png" width="61" height="62" alt="menu icon">
+                </button>
+                <button class="services__nav-link nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                  aria-selected="false">
+                  <img src="./assets/images/icon/nav-icon-2.png" width="84" height="87" alt="menu icon">
+                </button>
+                <button class="services__nav-link nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                  aria-selected="false">
+                  <img src="./assets/images/icon/nav-icon-3.png" width="88" height="62" alt="menu icon">
+                </button>
+                <button class="services__nav-link nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                  aria-selected="false">
+                  <img src="./assets/images/icon/nav-icon-4.png" width="61" height="62" alt="menu icon">
+                </button>
+              </div>
+            </div>
+            <div class="col-md-10 col-sm-9 col-8">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab">
+                  <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12 col-10">
+                      <div class="services__desc">
+                        <h3 class="services__title-name">Modern App Design</h3>
+                        <hr class="decor-line my-3">
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.</p>
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae eveniet quam rem unde facilis.</p>
+                        <p class="text mb-4">Vitae eveniet quam rem unde facilis.</p>
+                        <a href="#" class="btn links shadow py-3 my-4">
+                          <img class="pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                          Know More
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-10">
+                      <img class="img-fluid" src="./assets/images/apple-watch.png" width="360" alt="apple watch">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                  <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12 col-10">
+                      <div class="services__desc">
+                        <h3 class="services__title-name">Modern App Design</h3>
+                        <hr class="decor-line my-3">
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum  consequuntur delectus nulla illo aperiam itaque cumque.</p>
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae eveniet quam rem unde facilis.</p>
+                        <p class="text mb-4">Vitae eveniet quam rem unde facilis.</p>
+                        <a href="#" class="btn links shadow py-3 my-4">
+                          <img class="pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                          Know More
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-10">
+                      <img class="img-fluid" src="./assets/images/apple-watch.png" width="360" alt="apple watch">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                  <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12 col-10">
+                      <div class="services__desc">
+                        <h3 class="services__title-name">Modern App Design</h3>
+                        <hr class="decor-line my-3">
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum  totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum  consequuntur delectus nulla illo aperiam itaque cumque.</p>
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae eveniet quam rem unde facilis.</p>
+                        <p class="text mb-4">Vitae eveniet quam rem unde facilis.</p>
+                        <a href="#" class="btn links shadow py-3 my-4">
+                          <img class="pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                          Know More
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-10">
+                      <img class="img-fluid" src="./assets/images/apple-watch.png" width="360" alt="apple watch">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  <div class="row justify-content-between">
+                    <div class="col-lg-6 col-sm-12 col-10">
+                      <div class="services__desc">
+                        <h3 class="services__title-name">Modern App Design</h3>
+                        <hr class="decor-line my-3">
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus earum totam ad sint error porro. Consectetur, sunt, aperiam. Magni rem optio distinctio illum consequuntur delectus nulla illo aperiam itaque cumque.</p>
+                        <p class="text mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel officia vitae eveniet quam rem unde facilis.</p>
+                        <p class="text mb-4">Vitae eveniet quam rem unde facilis.</p>
+                        <a href="#" class="btn links shadow py-3 my-4">
+                          <img class="pe-3" src="./assets/images/icon/plus.png" alt="icon plus">
+                          Know More
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 col-10">
+                      <img class="img-fluid" src="./assets/images/apple-watch.png" width="360" alt="apple watch">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <div class="container">
+        <div class="row team__content">
+          <div class="col-12">
+            <h2 class="title text-center text-capitalize mb-4"><span class="title__decor">team</span> chinen & skills
+            </h2>
+            <p class="text text-center col-7 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores
+              fuga provident Libero.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-4 col-md-5 col-sm-8 col-9 my-5">
+            <div class="card team__state justify-content-center align-items-center p-3">
+              <img class="img-fluid mb-3" src="./assets/images/avatar.png" alt="avatar">
+              <div class="row team__state-row justify-content-center w-100">
+                <div class="col-10">
+                  <div class="team__state-caption text-center p-3 shadow">
+                    <h5 class="team__caption_title card-title">Bedi Manos</h5>
+                    <p class="card-text"><small class="text-muted">UI/UX Parena</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-5 col-sm-8 col-9 my-5">
+            <div class="card team__state team__state-back justify-content-around p-3">
+              <div class="col-sm-6 col-10 text-center">
+                <p class="team-state-back-use my-2">UI/UX Design</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <p class="team-state-back-use my-2">English</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <p class="team-state-back-use my-2">Communication</p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="team__state-back-caption text-center">
+                <h5 class="team__caption_title card-title">Al Rayhan</h5>
+                <p class="card-text">UI/UX Designer</p>
+                <div class="team__state-back-social">
+                  <a href="#"><img class="m-2" src="./assets/images/icon/tw.png" alt="twitter"></a>
+                  <a href="#"><img class="m-2" src="./assets/images/icon/fb.png" alt="facebook"></a>
+                  <a href="#"><img class="m-2" src="./assets/images/icon/tw.png" alt="twitter"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-5 col-sm-8 col-9 my-5">
+            <div class="card team__state justify-content-center align-items-center p-3">
+              <img class="img-fluid mb-3" src="./assets/images/avatar.png" alt="avatar">
+              <div class="row team__state-row justify-content-center w-100">
+                <div class="col-10">
+                  <div class="team__state-caption text-center p-3 shadow">
+                    <h5 class="team__caption_title card-title">Ali Sayed</h5>
+                    <p class="card-text"><small class="text-muted">UI/UX Designer</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <div class="row reviews__content">
+          <div class="col-12">
+            <h2 class="title text-center text-capitalize mb-4"><span class="title__decor">clients</span> said</h2>
+            <p class="text text-center col-7 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit Maiores
+              fuga provident Libero.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div id="rewiews__carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#rewiews__carousel" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#rewiews__carousel" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#rewiews__carousel" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="100000">
+                  <div class="row mt-5">
+                    <div class="col-xl-6 col-12 mb-5">
+                      <div class="card shadow align-items-center h-100 px-5">
+                        <img src="./assets/images/icon/client-photo.png" class="d-block reviews__client-photo"
+                          alt="reviews" width="105">
+                        <p class="reviews__text">“This was my first time renting from car rental. The service rep help
+                          me find the best rental
+                          to suit my needs. I will definitely rent with this company again”</p>
+                        <div class="reviews__stars mb-4">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                        </div>
+                        <p><span class="strong">Kita Say</span>, <em>HK Director</em></p>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-12 mb-5">
+                      <div class="card shadow align-items-center h-100 px-5">
+                        <img src="./assets/images/icon/client-photo.png" class="d-block reviews__client-photo"
+                          alt="reviews" width="105">
+                        <p class="reviews__text">“This was my first time renting from car rental. The service rep help
+                          me find the best rental
+                          to suit my needs. I will definitely rent with this company again”</p>
+                        <div class="reviews__stars mb-4">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                        </div>
+                        <p><span class="strong">Kita Say</span>, <em>HK Director</em></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="row mt-5">
+                    <div class="col-xl-6 col-12 mb-5">
+                      <div class="card shadow align-items-center h-100 bg-info px-5">
+                        <img src="./assets/images/icon/client-photo.png" class="d-block reviews__client-photo"
+                          alt="reviews" width="105">
+                        <p class="reviews__text">“This was my first time renting from car rental. The service rep help
+                          me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <div class="reviews__stars mb-4">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                        </div>
+                        <p><span class="strong">Kita Say</span>, <em>HK Director</em></p>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-12 mb-5">
+                      <div class="card shadow align-items-center h-100 bg-warning px-5">
+                        <img src="./assets/images/icon/client-photo.png" class="d-block reviews__client-photo"
+                          alt="reviews" width="105">
+                        <p class="reviews__text">“This was my first time renting from car rental. The service rep help
+                          me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <div class="reviews__stars mb-4">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                        </div>
+                        <p><span class="strong">Kita Say</span>, <em>HK Director</em></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <div class="row mt-5">
+                    <div class="col-xl-6 col-12 mb-5">
+                      <div class="card shadow align-items-center h-100 px-5">
+                        <img src="./assets/images/icon/client-photo.png" class="d-block reviews__client-photo"
+                          alt="reviews" width="105">
+                        <p class="reviews__text">“This was my first time renting from car rental. The service rep help
+                          me find the best rental to suit my needs. I will definitely rent with this company again”</p>
+                        <div class="reviews__stars mb-4">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                        </div>
+                        <p><span class="strong">Kita Say</span>, <em>HK Director</em></p>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-12 mb-5">
+                      <div class="card shadow align-items-center h-100 px-5">
+                        <img src="./assets/images/icon/client-photo.png" class="d-block reviews__client-photo"
+                          alt="reviews" width="105">
+                        <p class="reviews__text">“This was my first time renting from car rental. The service rep help
+                          me find the best rental
+                          to suit my needs. I will definitely rent with this company again”</p>
+                        <div class="reviews__stars mb-4">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                          <img src="./assets/images/icon/star.png" alt="star">
+                        </div>
+                        <p><span class="strong">Kita Say</span>, <em>HK Director</em></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#rewiews__carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#rewiews__carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="company-logo">
+      <div class="container">
+        <h6 hidden>some title</h6>
+        <div class="row company-logo__list justify-content-between align-items-center py-5">
+          <div class="col-lg-2 col-md-3 col-4 my-4 company-logo__list-item">
+            <a href="#"><img class="company-logo__list-item-img" src="./assets/images/partner1.png"
+                alt="logo partner1"></a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 my-4 company-logo__list-item">
+            <a href="#"><img class="company-logo__list-item-img" src="./assets/images/partner2.png"
+                alt="logo partner2"></a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 my-4 company-logo__list-item">
+            <a href="#"><img class="company-logo__list-item-img" src="./assets/images/partner3.png"
+                alt="logo partner3"></a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 my-4 company-logo__list-item">
+            <a href="#"><img class="company-logo__list-item-img" src="./assets/images/partner1.png"
+                alt="logo partner4"></a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 my-4 company-logo__list-item">
+            <a href="#"><img class="company-logo__list-item-img" src="./assets/images/partner2.png"
+                alt="logo partner5"></a>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 my-4 company-logo__list-item">
+            <a href="#"><img class="company-logo__list-item-img" src="./assets/images/partner3.png"
+                alt="logo partner6"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="text-center mb-5">
+          <a href="#" class="btn links shadow text-capitalize py-3">
+            contact us
+          </a>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12 footer__social d-flex mb-3">
+            <div class="footer__social-ellipse active mx-2">
+              <a href="#">
+                <img class="footer__social-img p-3" src="./assets/images/icon/fb-icon.png" alt="social icon">
+              </a>
+            </div>
+            <div class="footer__social-ellipse mx-2">
+              <a href="#">
+                <img class="footer__social-img p-3" src="./assets/images/icon/tw-icon.png" alt="social icon">
+              </a>
+            </div>
+            <div class="footer__social-ellipse mx-2">
+              <a href="#">
+                <img class="footer__social-img p-3" src="./assets/images/icon/social-icon-3.png" alt="social icon">
+              </a>
+            </div>
+            <div class="footer__social-ellipse mx-2">
+              <a href="#">
+                <img class="footer__social-img p-3" src="./assets/images/icon/social-icon-4.png" alt="social icon">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <p class="footer__copyright my-2">© 2015 - 2016 Deviserweb Ltd.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+</html>
